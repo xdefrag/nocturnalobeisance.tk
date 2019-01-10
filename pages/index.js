@@ -8,19 +8,35 @@ const Index = (props) => (
   <div>
   <Main>
   <Header />
+  <div className="container">
   {props.items.map((item) => (
     <div className="item">
     <video loop autoPlay>
-    <source src={item.image} type="video/mp4" />
+      <source src={item.image} type="video/mp4" />
     </video>
     <SCTrack track={item.sctrack} />
     </div>
   ))}
+  </div>
   <Footer />
   </Main>
   <style jsx>{`
-      .item {
+      .container {
+        width: 100%;
+      }
+
+      .container .item {
+        max-width: 40em;
+        margin: auto;
         margin-bottom: 4em;
+      }
+
+      .container .item video {
+        width: 100%;
+      }
+
+      .container .item iframe {
+        width: 100%;
       }
     `}</style>
   </div>
@@ -35,7 +51,7 @@ Index.getInitialProps = () => {
       },
       {
         "image": "https://media.giphy.com/media/259aepyVE9wqtKIOR6/giphy.mp4",
-        "sctrack": "505911822"
+        "sctrack": "549103632"
       },
 
     ]
