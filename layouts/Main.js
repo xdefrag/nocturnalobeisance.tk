@@ -1,14 +1,7 @@
 import Head from 'next/head'
+import {Palette} from '../components/Palette.js'
 
 const GA_TRACKING_ID = 'UA-92527355-4'
-
-const palette = {
-  background: "#fafbfd",
-  primary: "#00356a",
-  link: "#3286aa",
-  warning: "#91bbd1",
-  light: "#dce9ef"
-}
 
 const Main = (props) => (
   <div>
@@ -30,7 +23,7 @@ const Main = (props) => (
   <title>NOCTURNAL OBEISANCE</title>
   <meta charSet="utf8"/>
   <meta name="description" content=""/>
-  <meta name="keywords" content=""/>
+  <meta name="keywords" content="satan"/>
   <meta name="author" content="Stanislaw Mnizhek"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <meta property="og:title" content="Nocturnal Obeisance"/>
@@ -43,13 +36,13 @@ const Main = (props) => (
   {props.children}
   <style jsx global>{`
     body {
-      background: ${palette.background};
+      background: ${Palette.background};
 
       text-align: center;
 
       font-size: 1.2em;
       font-family: monospace;
-      color: ${palette.primary};
+      color: ${Palette.primary};
 
       margin: 0;
       padding: 0;
@@ -61,7 +54,7 @@ const Main = (props) => (
     }
 
     a {
-      color: ${palette.link};
+      color: ${Palette.link};
       text-decoration: none;
     }
 
