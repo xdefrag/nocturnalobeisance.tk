@@ -72,6 +72,11 @@ const Index = (props) => (
 Index.getInitialProps = () => ({
   items: [
     {
+      "image": "https://media.giphy.com/media/X9tOww6RE0NJaFielA/giphy.mp4",
+      "sctrack": "300053138",
+      "published_at": "2019-01-16T16:00:00.000Z"
+    },
+    {
       "image": "https://media.giphy.com/media/9JrvJ16SEz3brFhzNN/giphy.mp4",
       "sctrack": "135179524",
       "published_at": "2019-01-15T16:00:00.000Z"
