@@ -65,6 +65,25 @@ const Index = (props) => (
       .container .item iframe {
         width: 100%;
       }
+
+      // high res
+      @media all and (min-width: 1300px) {
+        .container .item {
+          max-width: 60vw;
+        }
+      }
+
+      // low res
+      @media all and (max-width: 800px) {
+        .container .item {
+          padding: 0;
+        }
+
+        .container .item video {
+          margin-bottom: 0;
+        }
+
+      }
     `}</style>
   </div>
 )

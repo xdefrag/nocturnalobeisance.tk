@@ -2,7 +2,7 @@ const bgUrl = "/static/bg.mp4"
 
 const Background = () => (
   <div>
-    <video loop autoPlay>
+    <video loop autoPlay muted playsInline>
         <source src={bgUrl} type="video/mp4" />
     </video>
     <style jsx>{`

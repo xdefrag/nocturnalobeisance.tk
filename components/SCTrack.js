@@ -11,7 +11,6 @@ const SCTrack = (props) => (
   <style jsx>{`
     iframe {
       width: 100%;
-      max-width: 40em;
       min-width: 20em;
     }
     `}
