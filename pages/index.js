@@ -17,7 +17,7 @@ const Index = (props) => (
   {props.items.map((item) => (
     <LazyLoad height={600} key={item.sctrack}>
     <div className="item">
-    <video loop autoPlay>
+    <video loop autoPlay muted playsInline>
     <source src={item.image} type="video/mp4" />
     </video>
     <SCTrack track={item.sctrack} />
