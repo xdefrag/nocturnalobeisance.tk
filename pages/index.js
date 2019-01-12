@@ -5,8 +5,8 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import SCTrack from '../components/SCTrack'
 
+import LazyLoad from 'react-lazyload';
 import dayjs from 'dayjs'
-
 
 const Index = (props) => (
   <div>
@@ -15,12 +15,14 @@ const Index = (props) => (
   <Header />
   <div className="container">
   {props.items.map((item) => (
+    <LazyLoad height={600} key={item.sctrack}>
     <div className="item">
     <video loop autoPlay>
     <source src={item.image} type="video/mp4" />
     </video>
     <SCTrack track={item.sctrack} />
     </div>
+    </LazyLoad>
   ))}
   </div>
   <Footer />
@@ -52,10 +54,12 @@ const Index = (props) => (
         margin-bottom: 4em;
         padding: 2em;
         position: relative;
+        transition: background-color 200ms linear;
       }
 
       .container .item video {
         width: 100%;
+        margin-bottom: -0.3em;
       }
 
       .container .item iframe {
