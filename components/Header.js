@@ -14,6 +14,7 @@ const Header = () => (
       color: ${Palette.primary};
       padding-left: 1em;
       z-index: -1;
+      overflow: hidden;
     }
     `}
   </style>

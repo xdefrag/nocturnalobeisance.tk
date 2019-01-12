@@ -7,7 +7,8 @@ const Background = () => (
     </video>
     <style jsx>{`
       video {
-        width: 100%;
+        min-width: 100vw;
+        min-height: 100vh;
         float: left;
         top: 0;
         left: 0;
