@@ -3,6 +3,6 @@
   "name": "nocturnalobeisance.tk",
   "alias": "nocturnalobeisance.tk",
   "builds": [
-    { "src": "package.json", "use": "@now/static-build" }
+    { "src": "package.json", "use": "@now/next" }
   ]
 }
