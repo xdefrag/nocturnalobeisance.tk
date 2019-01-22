@@ -91,6 +91,21 @@ const Index = (props) => (
 Index.getInitialProps = () => ({
   items: [
     {
+      "image": "https://media.giphy.com/media/9P1Gwqd14thUh3oTmj/giphy.mp4",
+      "sctrack": "558540270",
+      "published_at": "2019-01-26T16:00:00.000Z"
+    },
+    {
+      "image": "https://media.giphy.com/media/2wW4VXvfxc2kSovWns/giphy.mp4",
+      "sctrack": "374656514",
+      "published_at": "2019-01-24T16:00:00.000Z"
+    },
+    {
+      "image": "https://media.giphy.com/media/fCU0sfogI94gpueWsS/giphy.mp4",
+      "sctrack": "435176886",
+      "published_at": "2019-01-22T16:00:00.000Z"
+    },
+    {
       "image": "https://media.giphy.com/media/X9tOww6RE0NJaFielA/giphy.mp4",
       "sctrack": "300053138",
       "published_at": "2019-01-16T16:00:00.000Z"
