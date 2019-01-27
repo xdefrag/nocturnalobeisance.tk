@@ -91,6 +91,31 @@ const Index = (props) => (
 Index.getInitialProps = () => ({
   items: [
     {
+      "image": "https://media.giphy.com/media/kVNV1wSjDfxwQqxdLw/giphy.mp4",
+      "sctrack": "314293579",
+      "published_at": "2019-01-02T16:00:00.000Z"
+    },
+    {
+      "image": "https://media.giphy.com/media/4GZwuLco5K9Mo6qa4Y/giphy.mp4",
+      "sctrack": "495966147",
+      "published_at": "2019-01-04T16:00:00.000Z"
+    },
+    {
+      "image": "https://media.giphy.com/media/5w2dmjZM2w6WX0C7xn/giphy.mp4",
+      "sctrack": "322312116",
+      "published_at": "2019-01-02T16:00:00.000Z"
+    },
+    {
+      "image": "https://media.giphy.com/media/5yYDJmaA70ViiiIrvC/giphy.mp4",
+      "sctrack": "440562744",
+      "published_at": "2019-01-30T16:00:00.000Z"
+    },
+    {
+      "image": "https://media.giphy.com/media/Bo7EKPeX7l1IUTrbU8/giphy.mp4",
+      "sctrack": "450693687",
+      "published_at": "2019-01-28T16:00:00.000Z"
+    },
+    {
       "image": "https://media.giphy.com/media/9P1Gwqd14thUh3oTmj/giphy.mp4",
       "sctrack": "558540270",
       "published_at": "2019-01-26T16:00:00.000Z"
