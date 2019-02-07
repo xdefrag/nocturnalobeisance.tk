@@ -98,17 +98,17 @@ Index.getInitialProps = () => ({
     {
       "image": "https://media.giphy.com/media/kVNV1wSjDfxwQqxdLw/giphy.mp4",
       "sctrack": "314293579",
-      "published_at": "2019-01-02T16:00:00.000Z"
+      "published_at": "2019-02-06T16:00:00.000Z"
     },
     {
       "image": "https://media.giphy.com/media/4GZwuLco5K9Mo6qa4Y/giphy.mp4",
       "sctrack": "495966147",
-      "published_at": "2019-01-04T16:00:00.000Z"
+      "published_at": "2019-02-04T16:00:00.000Z"
     },
     {
       "image": "https://media.giphy.com/media/5w2dmjZM2w6WX0C7xn/giphy.mp4",
       "sctrack": "322312116",
-      "published_at": "2019-01-02T16:00:00.000Z"
+      "published_at": "2019-02-02T16:00:00.000Z"
     },
     {
       "image": "https://media.giphy.com/media/5yYDJmaA70ViiiIrvC/giphy.mp4",
