@@ -175,6 +175,11 @@ Index.getInitialProps = () => ({
       "sctrack": "549103632",
       "published_at": "2019-01-10T16:00:00.000Z"
     },
+    {
+      "image": "https://media.giphy.com/media/BCgbkM94eyEhhx0oXT/giphy.mp4",
+      "sctrack": "591073578",
+      "published_at": "2019-03-10T16:00:00.000Z"
+    },
   ].filter((item) => dayjs(item.published_at).isBefore(dayjs()))
 })
 
