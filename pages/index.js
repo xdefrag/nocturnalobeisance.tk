@@ -91,9 +91,14 @@ const Index = (props) => (
 Index.getInitialProps = () => ({
   items: [
     {
+      "image": "https://media.giphy.com/media/BCgbkM94eyEhhx0oXT/giphy.mp4",
+      "sctrack": "591073578",
+      "published_at": "2019-03-10T16:00:00.000Z"
+    },
+    {
       "image": "https://media.giphy.com/media/3h3x0dHjWZB6SwGES6/giphy.mp4",
       "sctrack": "522121725",
-      "published_at": "2019-01-06T16:00:00.000Z"
+      "published_at": "2019-02-06T16:00:00.000Z"
     },
     {
       "image": "https://media.giphy.com/media/kVNV1wSjDfxwQqxdLw/giphy.mp4",
@@ -174,11 +179,6 @@ Index.getInitialProps = () => ({
       "image": "https://media.giphy.com/media/259aepyVE9wqtKIOR6/giphy.mp4",
       "sctrack": "549103632",
       "published_at": "2019-01-10T16:00:00.000Z"
-    },
-    {
-      "image": "https://media.giphy.com/media/BCgbkM94eyEhhx0oXT/giphy.mp4",
-      "sctrack": "591073578",
-      "published_at": "2019-03-10T16:00:00.000Z"
     },
   ].filter((item) => dayjs(item.published_at).isBefore(dayjs()))
 })
